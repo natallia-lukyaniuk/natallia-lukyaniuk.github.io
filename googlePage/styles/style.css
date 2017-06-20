@@ -1,0 +1,184 @@
+* {
+    font-family: arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.links a {
+    line-height: 24px;
+    vertical-align: middle;
+    opacity: 0.75;
+    margin: 0 7px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #609;
+}
+
+.google-application {
+    background-position: -132px -38px;
+    background-image: url('../images/i1_1967ca6a.png');
+    background-size: 528px 68px;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+}
+
+.links {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.login {
+    display: inline-block;
+    border-radius: 2px;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    margin: 0 0 0 15px;
+    padding: 0 12px;
+    color: #fff;
+    font-weight: bold;
+    line-height: 28px;
+    border: 1px solid #4285f4;
+}
+
+main {
+    margin-top: 89px;
+    padding: 109px;
+}
+
+.logo {
+    background: url('../images/googlelogo_color_272x92dp.png');
+    background-size: 272px 92px;
+    height: 92px;
+    width: 272px;
+}
+
+.logo-subtext{
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    left: 215px;
+    position: relative;
+    top: 76px;
+    white-space: nowrap;
+    text-align: left;
+}
+
+.inputTools .voiceSearch{
+    height: 24px;
+    width: 24px;
+}
+
+.inputTools .electronicKeyboard{
+    height: 11px;
+    width: 19px;
+}
+
+.inputTools {
+    line-height: 44px;
+    margin: 0 16px;
+    margin-top: -1px;
+    position: static;
+    font-size: 16px;
+}
+
+form {
+    margin-top: 20px;
+    width: 584px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+form:hover {
+    box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+input {
+    outline: none;
+    border: none;
+    width: 100%;
+    margin-left: 20px;
+        font-size: 17px;
+}
+
+.inputTools a {
+    padding: 0 8px;
+    line-height: 44px;
+}
+
+.inputTools a span {
+    vertical-align: middle;
+    display: inline-block;
+    line-height: 0;
+}
+
+.inputTools a:hover {
+    text-decoration: none;
+}
+
+.jsb {
+    padding-top: 18px;
+}
+
+.jsb input[type="submit"] {
+    height: 36px;
+    width: 127px;
+    line-height: 27px;
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+    font-size: 13px;
+}
+
+input[type="submit"]:hover, input[type="submit"]:hover  {
+    border: 1px solig grey;
+}
+
+.language {
+    margin-bottom: 24px;
+    margin-top: 24px;
+}
+
+.language a {
+    color: #1a0dab;
+}
+
+footer {
+    line-height: 40px;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer a {
+    padding-left: 27px;
+    line-height: 40px; 
+    color: #666;
+}
+
+.rightFloat {
+    float: right;
+    margin-right: 30px;
+}
